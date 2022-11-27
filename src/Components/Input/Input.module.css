@@ -1,0 +1,178 @@
+.box{
+  padding-bottom: 10px;
+}
+
+.labelPadding{
+  padding-bottom: 0.5rem;
+}
+
+.label{
+  display: block;
+  font-size: 1rem;
+  line-height: 1;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-weight: bold;
+  font-size: 1rem;
+ 
+}
+
+.textarea{
+  resize: vertical;
+  border: 1px solid #eee;
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.8rem;
+  border-radius: 0.4rem;
+  background: #eee;
+  transition: 0.2s; 
+  box-sizing: border-box!important;
+}
+
+.input {
+  border: 1px solid #eee;
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.8rem;
+  border-radius: 0.4rem;
+  background: #eee;
+  transition: 0.2s; 
+  box-sizing: border-box!important;
+}
+
+.inputDisabled {
+  border: 1px solid #eee;
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.8rem;
+  border-radius: 0.4rem;
+  background: #eee;
+  transition: 0.2s; 
+  box-sizing: border-box!important;
+}
+
+.row{
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: bold;
+  align-items: center;
+}
+
+.inputBank {
+  border: 1px solid #eee;
+  display: flex;
+  width: 80%;
+  font-size: 1rem;
+  padding: 0.8rem;
+  border-radius: 0.4rem;
+  background: #eee;
+  transition: 0.2s; 
+  box-sizing: border-box!important;
+}
+
+.inputBankDig {
+  border: 1px solid #eee;
+  display: flex;
+  width: 20%;
+  font-size: 1rem;
+  padding: 0.8rem;
+  border-radius: 0.4rem;
+  background: #eee;
+  transition: 0.2s; 
+  box-sizing: border-box!important;
+}
+
+.inputBankDig::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+
+
+.input:hover,
+.input:focus,
+.inputBankDig:hover,
+.inputBankDig:focus
+.inputBank:hover,
+.inputBank:focus,
+.textarea:hover,
+.textarea:focus {
+  outline: none;
+  border-color: #F58634;
+  background: white;
+  box-shadow: 0 0 0 1.5px #FFCD36;
+}
+
+.input[type="date"] {
+  width: 180px;  
+}
+
+
+
+
+.teacher{
+  display: block;
+  width: 100%;  
+  padding-left: 10px ;
+  padding-right: 10px ;
+  border-left: 1px solid #dcdcdc;
+  min-width: 300px;
+}
+
+.experience{
+  padding-left: 10px;
+  border-top: 1px solid #dcdcdc;
+}
+
+.secondaryButton{
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #F04E23;
+  color: white;
+  padding: 0.4rem 0.5rem;
+  box-sizing: border-box;
+  transition: 0.1s;
+  min-width: 4rem;
+  font-weight: bold;
+}
+
+.secondaryButton:hover,
+.secondaryButton:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #FFA500, 0 0 0 3px #FF8C00;
+}
+
+.buttonSimpleLink{
+   display: block;
+   margin-top: 0.5rem
+}
+
+.typeSP{
+  display: flex;
+}
+
+.inputMenuMin {
+  border: 1px solid #eee;
+  display: block;
+  width: 100%;
+  font-size: 0.8rem;
+  border-radius: 0.4rem;
+  background: #eee;
+  transition: 0.2s; 
+  box-sizing: border-box!important;
+  direction: rtl;
+}
+
+.inputMenuMin:hover,
+.inputMenuMin:focus{
+  outline: none;
+  border-color: #F58634;
+  background: white;
+  box-shadow: 0 0 0 1.5px #FFCD36;
+}

@@ -1,0 +1,305 @@
+.button {
+  font-size: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #F04E23;
+  color: white;
+  padding: 0.8rem 1rem;
+  box-sizing: border-box;
+  transition: 0.1s;
+  min-width: 8rem;
+  font-weight: bold;
+}
+
+.button:hover,
+.button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #FFA500, 0 0 0 3px #FF8C00;
+}
+.button:disable {
+  opacity: 0.5rem;
+  cursor: wait;
+}
+
+.button:disabled,
+.secondary:disabled {
+  background-color: #cecece;
+  cursor:not-allowed;
+
+}
+.button:disabled:hover,
+.secondary:disabled:hover {
+  outline: none;
+  box-shadow: none;
+  
+}
+
+.loginbutton{
+  font-size: 1.2rem!important;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  cursor: pointer;
+  border: none;
+  background-color: none;  
+  background: none;
+	color: #212121;
+	padding: 0;	
+	outline: inherit;  
+  transition: 0.1s;
+  min-width: 8rem;
+  text-decoration: none;
+  text-align: center;
+}
+
+.loginbutton:hover{
+  font-weight: bold;
+  
+}
+
+.redeem {
+  font-size: 1rem; 
+  cursor: pointer;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #3E4095;
+  color: white;
+  padding: 0.8rem 1rem;
+  box-sizing: border-box;
+  transition: 0.1s;
+  min-width: 8rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+.redeem:hover,
+.redeem:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #4D50BB, 0 0 0 3px #282A62;
+}
+
+.cancelmini{
+  font-size: 1rem; 
+  cursor: pointer;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #8a0303;
+  color: white;  
+  box-sizing: border-box;
+  transition: 0.1s;
+  font-weight: bold;
+  text-decoration: none;
+}
+.cancelmini:hover,
+.cancelmini:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #D82014, 0 0 0 3px #590D08;
+}
+
+.deleteSecondary{
+  font-size: 1rem; 
+  cursor: pointer;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #8a0303;
+  color: white;
+  padding: 0.4rem 0.5rem;
+  box-sizing: border-box;
+  transition: 0.1s;  
+  font-weight: bold;
+  width: fit-content;
+  text-decoration: none;  
+}
+
+.delete{
+  font-size: 1rem; 
+  cursor: pointer;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #8a0303;
+  color: white;
+  padding: 0.8rem 1rem;
+  box-sizing: border-box;
+  transition: 0.1s;
+  min-width: 8rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+.delete:hover,
+.deleteSecondary:hover,
+.deleteSecondary:focus,
+.delete:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #D82014, 0 0 0 3px #590D08;
+}
+
+.buttonLink{
+  text-decoration: none;
+  font-size: 1rem; 
+  cursor: pointer;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #F04E23;
+  color: white;
+  padding: 0.8rem 1rem;
+  box-sizing: border-box;
+  transition: 0.1s;
+  min-width: 8rem;
+  font-weight: bold;
+}
+
+.buttonLink:hover,
+.buttonLink:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #FFA500, 0 0 0 3px #FF8C00;
+}
+
+.secondary{
+  font-size: 1rem;
+ 
+  cursor: pointer;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #F04E23;
+  color: white;
+  padding: 0.4rem 0.5rem;
+  box-sizing: border-box;
+  transition: 0.1s;  
+  font-weight: bold;
+  width: fit-content;
+  text-decoration: none;  
+}
+
+.secondaryredeem{
+  font-size: 1rem;
+ 
+  cursor: pointer;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #3E4095;
+  color: white;
+  padding: 0.4rem 0.5rem;
+  box-sizing: border-box;
+  transition: 0.1s;  
+  font-weight: bold;
+  width: fit-content;
+  text-decoration: none;  
+}
+
+.secondary:hover,
+.secondary:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #FFA500, 0 0 0 3px #FF8C00;
+}
+.secondaryredeem:hover,
+.secondaryredeem:focus{
+  outline: none;
+  box-shadow: 0 0 0 2px #4D50BB, 0 0 0 3px #282A62;
+}
+
+.confirm{
+  font-size: 1rem; 
+  cursor: pointer;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #00A859;
+  color: white;
+  padding: 0.4rem 0.5rem;
+  box-sizing: border-box;
+  transition: 0.1s;  
+  font-weight: bold;
+  width: fit-content;
+  text-decoration: none; 
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.denial{
+  font-size: 1rem; 
+  cursor: pointer;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #ED3237;
+  color: white;
+  padding: 0.4rem 0.5rem;
+  box-sizing: border-box;
+  transition: 0.1s;  
+  font-weight: bold;
+  width: fit-content;
+  text-decoration: none; 
+}
+
+.denial:hover,
+.denial:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #FF3535, 0 0 0 3px #BA272B;
+}
+
+.confirm:hover,
+.confirm:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #00CE6D, 0 0 0 3px #00753D;
+}
+
+.tutorbutton{
+  font-size: 1rem; 
+  cursor: pointer;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #F04E23;
+  color: white;
+  padding: 0.8rem 1rem;
+  box-sizing: border-box;
+  transition: 0.1s;
+  min-width: 8rem;
+  font-weight: bold;
+}
+
+.tutorbutton:hover,
+.tutorbutton:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #FFA500, 0 0 0 3px #FF8C00;
+}
+
+.linkbutton{
+  font-size: 1rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #F04E23;
+  color: white;
+  padding: 0.8rem 1rem;
+  box-sizing: border-box;
+  transition: 0.1s;
+  min-width: 8rem;
+  font-weight: bold;
+  text-decoration: none;
+
+}
+
+.linkbutton:hover{
+  outline: none;
+  box-shadow: 0 0 0 2px #FFA500, 0 0 0 3px #FF8C00;
+}
+
+.simpleButton{
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.simpleButton:hover,
+.simpleButton:focus{
+  font-weight: bold;
+  
+}
+.centerFlex{
+  display: flex;
+  justify-content: center;
+}
